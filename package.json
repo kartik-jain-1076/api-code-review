@@ -1,0 +1,38 @@
+{
+  "name": "travel-itinerary",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "review": "node openai.js",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.6.0",
+    "@types/glidejs__glide": "^3.6.1",
+    "@types/node": "20.3.3",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "bootstrap": "^5.3.0",
+    "bootstrap-icons": "^1.10.5",
+    "dotenv": "^16.3.1",
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.7",
+    "hnswlib-node": "^2.0.0",
+    "husky": "^8.0.3",
+    "langchain": "^0.0.118",
+    "moment": "^2.29.4",
+    "next": "13.4.7",
+    "openai": "3.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.63.6",
+    "sonarqube-scanner": "^3.0.1",
+    "styled-components": "^6.0.2",
+    "typescript": "5.1.6"
+  }
+}
